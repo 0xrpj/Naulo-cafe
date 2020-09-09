@@ -1,0 +1,246 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Momo",
+      "price": "150",
+      "priceCurrency": "NPR",
+      "image": "../images/food/momo.jpg",
+      "description": "Momo is a type of steamed dumpling with some form of filling. Momo has become a traditional delicacy in Nepal, Tibet and among Nepalese/Tibetan communities in Bhutan, as well as people of Ladakh, Northeast India and Darjeeling regions of India.",
+      "discount": "None at present"
+    },
+    {
+      "id": 2,
+      "name": "Chowmein",
+      "price": "150",
+      "priceCurrency": "NPR",
+      "image": "../images/food/chowmein.jpg",
+      "description": "A classic Chinese dish of stir-fried egg noodles with shredded chicken breast - experiment with different fish, meat, or vegetables.",
+      "discount": "2%"
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "price": "280",
+      "priceCurrency": "NPR",
+      "image": "../images/food/capa.jpg",
+      "description": "Composed of double espresso and hot milk, with the surface topped with foamed milk.",
+      "discount": "5%"
+    },
+    {
+      "id": 4,
+      "name": "Tea",
+      "price": "20",
+      "priceCurrency": "NPR",
+      "image": "../images/food/tea.jpg",
+      "description": "Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis, an evergreen shrub (bush) native to East Asia.",
+      "discount": "none"
+    },
+    {
+      "id": 5,
+      "name": "Coffee",
+      "price": "60",
+      "priceCurrency": "NPR",
+      "image": "../images/food/coffee.jpg",
+      "description": "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.",
+      "discount": "none"
+    },
+    {
+      "id": 6,
+      "name": "Lassi",
+      "price": "100",
+      "priceCurrency": "NPR",
+      "image": "../images/food/lassi.jpg",
+      "description": "Lassi is a blend of yoghurt, water, spices and sometimes fruit.",
+      "discount": "10%"
+    },
+    {
+      "id": 7,
+      "name": "Chicken curry",
+      "price": "250",
+      "priceCurrency": "NPR",
+      "image": "../images/food/chickencurry.jpg",
+      "description": "Its a delicious curry with chicken.",
+      "discount": "10%"
+    },
+    {
+      "id": 8,
+      "name": "Fish curry",
+      "price": "230",
+      "priceCurrency": "NPR",
+      "image": "../images/food/fish.jpeg",
+      "description": "Its a delicious curry with fish.",
+      "discount": "10%"
+    },
+    {
+      "id": 9,
+      "name": "Dal fry",
+      "price": "250",
+      "priceCurrency": "NPR",
+      "image": "../images/food/dalfry.jpg",
+      "description": "Its fried daal. Not just that, Its way better than the daal your home-daal.",
+      "discount": "10%"
+    },
+    {
+      "id": 10,
+      "name": "Blended Oreo Shake",
+      "price": "250",
+      "priceCurrency": "NPR",
+      "image": "../images/food/oreo.jpg",
+      "description": "Cool and delicious oreo shake for summer.",
+      "discount": "10%"
+    },
+    {
+      "id": 11,
+      "name": "Mango Lassi",
+      "price": "265",
+      "priceCurrency": "NPR",
+      "image": "../images/food/mango.jpg",
+      "description": "Refreshen your heart with mango lassi.",
+      "discount": "5%"
+    },
+    {
+      "id": 12,
+      "name": "Popcorn",
+      "price": "135",
+      "priceCurrency": "NPR",
+      "image": "../images/popcorn.jpg",
+      "description": "This is the delicious popcorn with ghee and salt.",
+      "discount": "5%"
+    },
+    {
+      "id": 13,
+      "name": "Caramel Topped Ice cream dessert ",
+      "price": "365",
+      "priceCurrency": "NPR",
+      "image": "../images/food/ctic.jpg",
+      "description": "This is the dish that most of the customers love. Fresh caramel Topped Ice cream dessert.",
+      "discount": "5%"
+    },
+    {
+      "id": 14,
+      "name": "Ice cream cookie dessert",
+      "price": "275",
+      "priceCurrency": "NPR",
+      "image": "../images/food/iccd.jpg",
+      "description": "Chocolaty layered ice cream dessert.",
+      "discount": "5%"
+    },
+    {
+      "id": 15,
+      "name": "Berries and cream",
+      "price": "280",
+      "priceCurrency": "NPR",
+      "image": "../images/food/bac.jpg",
+      "description": "This two ingredient recipe with berries mixed with cream makes your day.",
+      "discount": "10%"
+    },
+    {
+      "id": 16,
+      "name": "Kitkat ice cream pie",
+      "price": "345",
+      "priceCurrency": "NPR",
+      "image": "../images/food/kicp.jpg",
+      "description": "This easy ice cream pie is bursting with KitKat in every bite! Vanilla ice cream dotted with crispy kitkat",
+      "discount": "5%"
+    },
+    {
+      "id": 17,
+      "name": "Ice Cream Dessert Taco",
+      "price": "375",
+      "priceCurrency": "NPR",
+      "image": "../images/food/icst.jpg",
+      "description": "Vanilla Ice-cream in the shape of a taco.",
+      "discount": "20%"
+    },
+    {
+      "id": 18,
+      "name": "Espresso",
+      "price": "275",
+      "priceCurrency": "NPR",
+      "image": "../images/food/es.jpg",
+      "description": "Espresso coffee is made with a wide variety of coffee beans and roasts..",
+      "discount": "5%"
+    },
+    {
+      "id": 19,
+      "name": "Samosa",
+      "price": "25",
+      "priceCurrency": "NPR",
+      "image": "../images/food/samosa.jpg",
+      "description": "Triangular pastry filled with spiced meat or vegetables and fried in ghee or oil.",
+      "discount": "None"
+    },
+    {
+      "id": 20,
+      "name": "Butter Chicken",
+      "price": "475",
+      "priceCurrency": "NPR",
+      "image": "../images/food/bc.jpg",
+      "description": "Butter Chicken simmers in a buttery tomato sauce and is punctuated by several special spices .",
+      "discount": "15%"
+    },
+    {
+      "id": 21,
+      "name": "Veg Caesar Salad",
+      "price": "300",
+      "priceCurrency": "NPR",
+      "image": "../images/food/salad1.jpg",
+      "description": "The ultimate vegetarian Caesar salad - with homemade Caesar dressing, and tons of toppings.",
+      "discount": "5%"
+    },
+    {
+      "id": 22,
+      "name": "Chicken Caesar Salad",
+      "price": "300",
+      "priceCurrency": "NPR",
+      "image": "../images/food/salad2.jpg",
+      "description": "A classic chicken salad,, featuring crunchy croutons and a creamy, garlic dressing.",
+      "discount": "5%"
+    },
+    {
+      "id": 23,
+      "name": "Thai Caesar Salad",
+      "price": "370",
+      "priceCurrency": "NPR",
+      "image": "../images/food/salad3.jpg",
+      "description": "A classic thai caesar salad, featuring crunchy croutons and a creamy, garlic dressing.",
+      "discount": "5%"
+    },
+    {
+      "id": 24,
+      "name": "Ginger-Sesame Salad",
+      "price": "300",
+      "priceCurrency": "NPR",
+      "image": "../images/food/salad4.jpg",
+      "description": "A classic Ginger-Sesame  salad.",
+      "discount": "5%"
+    },
+    {
+      "id": 25,
+      "name": "Vegetable Salad",
+      "price": "100",
+      "priceCurrency": "NPR",
+      "image": "../images/food/salad5.jpg",
+      "description": "A classic delicious vegetable salad.",
+      "discount": "5%"
+    }
+  ],
+  "comments": [
+    {
+      "name": "Roshan Parajuli",
+      "comment": "NIce place!!",
+      "id": 1
+    },
+    {
+      "name": "Roshan",
+      "comment": "nice",
+      "id": 2
+    },
+    {
+      "name": "rsnpj",
+      "comment": "Very interesting place! I love it!",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+void delete()
+     		{loading();
+		system("CLS");
+		FILE *fp1;
+	    int i=0,j;
+		fp1=fopen("Booking.txt","r");
+     printf("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@||BOOKING DETAILS||@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+       printf("\n========================================================================================================================\n");
+    		printf("\nID FIRST-NAME LAST-NAME CHECK-IN[Y] CHECK-IN[M] CHECK-IN[D] CHECK-OUT[Y] CHECK-OUT[M] CHECK-OUT[D] ADULT    PRICE");
+    	printf("\n========================================================================================================================\n");
+		while(!feof(fp1)){
+	fscanf(fp1,"%d\n%s\n%s\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%f\n",&b[i].iid,&b[i].fname,&b[i].lname,&b[i].iy,&b[i].im,&b[i].id,&b[i].oy,&b[i].om,&b[i].od,&b[i].a,&b[i].c,&b[i].p);	
+		i++;
+    	}
+    	for(j=0;j<i;j++){
+		
+    		printf("%d\n%s\n%s\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%f\n",b[j].iid,b[j].fname,b[j].lname,b[j].iy,b[j].im,b[j].id,b[j].oy,b[j].om,b[j].od,b[j].a,b[j].c,b[j].p);	
+        }
+    	printf("\n\n\t\t\t....................................................................................\n");
+
+    	fclose(fp1);
+		fp1=fopen("Booking.txt","w");
+    	printf("\n\t\t\tENTER THE INDEX OF BOOKING EHICH YOU WANT TO DELETE:");
+    	int del;
+    	scanf("%d",&del);
+    	for(j=0;j<i;j++){
+	    	if(j==del){
+			continue;
+		}
+				fprintf(fp1,"%d\n%s\n%s\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%f\n",b[j].iid,b[j].fname,b[j].lname,b[j].iy,b[j].im,b[j].id,b[j].oy,b[j].om,b[j].od,b[j].a,b[j].c,b[j].p);	
+	}
+			fclose(fp1);	
+}
+
+
+
+
+void update()
+     	{loading();
+		system("CLS");
+		FILE *fp1;
+	    int i=0,j;
+		fp1=fopen("Booking.txt","r");
+     printf("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@||BOOKING DETAILS||@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+       printf("\n========================================================================================================================\n");
+    		printf("\nID FIRST-NAME LAST-NAME CHECK-IN[Y] CHECK-IN[M] CHECK-IN[D] CHECK-OUT[Y] CHECK-OUT[M] CHECK-OUT[D] ADULT    PRICE");
+    	printf("\n========================================================================================================================\n");
+		while(!feof(fp1)){
+		fscanf(fp1,"%d\n%s\n%s\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%f\n",&b[i].iid,&b[i].fname,&b[i].lname,&b[i].iy,&b[i].im,&b[i].id,&b[i].oy,&b[i].om,&b[i].od,&b[i].a,&b[i].c,&b[i].p);	
+		i++;
+    	}
+    	for(j=0;j<i;j++){
+			printf("%d\n%s\n%s\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%f\n",b[j].iid,b[j].fname,b[j].lname,b[j].iy,b[j].im,b[j].id,b[j].oy,b[j].om,b[j].od,b[j].a,b[j].c,b[j].p);	
+    	
+        }
+    	printf("\n\n\t\t\t=================================================================================================\n");
+
+    	fclose(fp1);
+		fp1=fopen("Booking.txt","w");
+		char rem[40];
+    	printf("\n\t\t\tENTER THE INDEX THAT YOU WANT TO UPDATE:");
+    	int up;
+    	scanf("%d",&up);
+        printf("\t\t\tENTER THE UNIQUE ID OF YOUR ACCOUNT:-");
+		scanf("%d",&b[up].iid);
+		printf("\t\t\tENTER YOUR FIRST NAME:-");
+		scanf("%s",&b[up].fname);
+		printf("\t\t\tENTER YOUR LAST NAME:-");
+		scanf("%s",&b[up].lname);
+		printf("\n\n\t\t\t___________________________________________________________________________________\n");	
+		printf("\t\t\tEnter date in number format:-e.g:years:2020  Month:12  Day:1\n");
+		printf("\n\n\t\t\t___________________________________________________________________________________\n");	
+		printf("\t\t\tCheck-in(Year):-");
+		scanf("%4d",&b[up].iy);
+		gets(rem);
+		printf("\n");
+		printf("\t\t\tCheck-in(Month):-");
+		scanf("%2d",&b[up].im);
+			gets(rem);
+		printf("\n");
+			printf("\t\t\tCheck-in(Day):-");
+		scanf("%2d",&b[up].id);
+			gets(rem);
+		printf("\n");
+		printf("\t\t\tcheck-out(Year):-");
+		scanf("%4d",&b[up].oy);
+			gets(rem);
+		printf("\n");
+			printf("\t\t\tcheck-out(Month):-");
+		scanf("%2d",&b[up].om);
+			gets(rem);
+		printf("\n");
+			printf("\t\t\tcheck-out(Day):-");
+				scanf("%2d",&b[up].od);
+					gets(rem);
+		printf("\n");
+			printf("\t\t\tAdults:-(number)::-");
+			scanf("%d",&b[up].a);
+			printf("\n");
+			printf("\t\t\tChildren:-(number)::-");
+			scanf("%d",&b[up].c);
+			printf("\n");
+	       printf("\t\t\t Keep Price Range:-");
+		scanf("%f",&b[up].p);
+		for(j=0;j<i;j++){
+	    	
+				fprintf(fp1,"%d\n%s\n%s\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%f\n",b[j].iid,b[j].fname,b[j].lname,b[j].iy,b[j].im,b[j].id,b[j].oy,b[j].om,b[j].od,b[j].a,b[j].c,b[j].p);	
+		}
+	
+			fclose(fp1);	
+}
